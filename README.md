@@ -62,14 +62,14 @@ Before you start make sure your username does not contain accented latin charact
   - $ grunt test
 3. Run the grunt server ( $ grunt serve )
 
-## Installing further components and modules to enhance workflow
-1. $ bower install bootstrap-css-only --save
-  --save saves the plugin as a dependency of the project.
-  If someone clones the repo they only have to run [$ bower install]
-  and they get all bower components they need
+## Installing further components and modules
 1. $ bower install font-awesome --save 
+2. [x] Installing angular bootstrap
+  - $ bower install angular-bootstrap --save
+  - if you have any problems just go to http://angular-ui.github.io/bootstrap/ and download it from there
 3. $ npm install grunt-remove-logging --save-dev 
   --save-dev saves it as a development dependency
+  
 
 ## Speeding up Compass compilation
 Compass is a great library but the compilation it does within grunt is very slow. With the original setup it took about 4.7 seconds before livereload was triggered by the browser after compiling sass to css. After going through the following steps the reload triggers in under 20ms.
@@ -100,12 +100,6 @@ To make this repo fit as a seed for medium to large scale apps I decided to make
   - $ bower uninstall angular-router --save
   - $ bower install ui-router --save
   - rewrote the router code
-4. [x] Installing angular bootstrap
-  - $ bower install angular-bootstrap --save
-  - if you have any problems just go to http://angular-ui.github.io/bootstrap/ and download it from there
-5. [ ] Setup grunt notify:
-  - $ npm install grunt-notify --save-dev
-6. [ ] Switch from jasmine to Mocha/Sinon. Postponed as 
 
 
 # Future
