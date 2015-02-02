@@ -1,1 +1,56 @@
-body{padding-top:20px;padding-bottom:20px}.header,.marketing,.footer{padding-left:15px;padding-right:15px}.header{border-bottom:1px solid #e5e5e5}.header h3{margin-top:0;margin-bottom:0;line-height:40px;padding-bottom:19px}.footer{padding-top:19px;color:#777;border-top:1px solid #e5e5e5}.container-narrow>hr{margin:30px 0}.jumbotron{text-align:center;border-bottom:1px solid #e5e5e5}.jumbotron .btn{font-size:21px;padding:14px 24px}.marketing{margin:40px 0}.marketing p+h4{margin-top:28px}
+/* Space out content a bit */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\000037}}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/* Custom page header */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000323}}
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  /* Make the masthead heading the same height as the navigation */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000327}}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000336}}
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000342}}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000347}}
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000351}}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000358}}
+.marketing {
+  margin: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/dev\/angular-advanced-seed-cb\/src\/asset\/sass\/_base\.scss}line{font-family:\0000361}}
+.marketing p + h4 {
+  margin-top: 28px;
+}
